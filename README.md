@@ -1,14 +1,26 @@
+# YouTube Comment Sentiment Analysis
 
-# YouTube Comment Sentiment Analyzer and Predictor
-This project demonstrates an end-to-end process for analyzing and predicting the sentiment of YouTube comments. It includes a complete data pipeline from scraping comments via the YouTube Data API to training a machine learning model.
+Analyze and classify YouTube video comments using Python, VADER sentiment analysis, and machine learning.
 
-## Project Features
-**Data Scraping**: Fetches comments from a specified YouTube video using the YouTube Data API, including pagination to retrieve multiple pages of comments.
+## Features
+- Extract comments using YouTube Data API v3
+- Clean text: lowercase, remove URLs/special characters, stopword removal
+- Sentiment scoring/classification (Positive, Negative, Neutral) with VADER
+- Machine learning model training (Logistic Regression + TF-IDF)
+- Visualizations: sentiment distribution, word cloud
+- Save/load models for deployment
 
-**Text Processing**: Cleans and normalizes the raw comment text by removing special characters, URLs, and stopwords.
+## Setup
+1. Clone repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Add your YouTube API key to `main.py`
+4. Run `main.py` for extraction & analysis
 
-**Sentiment Analysis (VADER)**: Uses the VADER lexicon to perform rule-based sentiment analysis on the comments, classifying them as Positive, Negative, or Neutral.
+## Usage
+- Notebooks provided for step-by-step data exploration and model building.
 
-**Data Visualization**: Generates a bar chart, a pie chart, and a word cloud to visualize the sentiment distribution and most common words.
+## Contributing
+Pull requests and feedback welcome!
 
-**Machine Learning Model**: Trains a Logistic Regression model using TF-IDF vectorization to predict sentiment on new, unseen comments.
+## License
+MIT
