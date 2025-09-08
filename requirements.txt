@@ -1,8 +1,12 @@
-google-api-python-client
-pandas
+reqs = """pandas
+numpy
+scikit-learn
 nltk
 vaderSentiment
+google-api-python-client
 matplotlib
-wordcloud
-scikit-learn
+seaborn
 joblib
+openpyxl
+"""
+
