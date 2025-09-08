@@ -4,12 +4,22 @@ This project analyzes **YouTube comments** to check whether they are **Positive,
 It combines **YouTube Data API**, text preprocessing, and **VADER Sentiment Analysis**.  
 Great for learning **NLP (Natural Language Processing)** and **Sentiment Analysis** with real-world data.
 
-## Features
-- Extract comments using YouTube Data API v3
-- Clean text: lowercase, remove URLs/special characters, stopword removal
-- Sentiment scoring/classification (Positive, Negative, Neutral) with VADER
-- Machine learning model training (Logistic Regression + TF-IDF)
-- Visualizations: sentiment distribution, word cloud
-- Save/load models for deployment
+## 🛠 Tools & Libraries
+
+## This project is built using the following tools and libraries:
+
+Python 3.x
+
+Pandas → Data manipulation & CSV handling
+
+NLTK → Stopwords & text preprocessing
+
+VADER Sentiment → Rule-based sentiment analysis
+
+Matplotlib / Seaborn → Visualization
+
+WordCloud → Word cloud generation
+
+Google API Client → Fetch YouTube comments using API
 
 
