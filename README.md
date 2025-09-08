@@ -6,20 +6,16 @@ Great for learning **NLP (Natural Language Processing)** and **Sentiment Analysi
 
 ## 🛠 Tools & Libraries
 
-## This project is built using the following tools and libraries:
+🔗 **This project is built using the following tools and libraries:**
 
-Python 3.x
+- **Python 3.x**
+- **Pandas** → Data manipulation & CSV handling  
+- **NLTK** → Stopwords & text preprocessing  
+- **VADER Sentiment** → Rule-based sentiment analysis  
+- **Matplotlib / Seaborn** → Visualization  
+- **WordCloud** → Word cloud generation
+- **Scikit-learn** → Extra preprocessing & ML utilities  
+- **Google API Client** → Fetch YouTube comments using API  
 
-Pandas → Data manipulation & CSV handling
-
-NLTK → Stopwords & text preprocessing
-
-VADER Sentiment → Rule-based sentiment analysis
-
-Matplotlib / Seaborn → Visualization
-
-WordCloud → Word cloud generation
-
-Google API Client → Fetch YouTube comments using API
 
 
