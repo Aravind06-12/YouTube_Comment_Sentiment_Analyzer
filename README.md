@@ -6,9 +6,8 @@ This project builds a data pipeline to scrape comments from a specific YouTube v
 
 1.  **Scraping Comments**: Fetches YouTube comments for a given video using the YouTube Data API.
 2.  **Data Processing**: The comments are converted into a structured Pandas DataFrame for easier manipulation.
-3.  **Text Normalization**: Text data is cleaned by removing HTML tags and special characters, and by performing lemmatization.
-4.  **Sentiment Analysis**: The VADER sentiment lexicon is used to classify each comment as positive, negative, or neutral.
-5.  **Visualization**: Pie and bar charts are generated to show the distribution of sentiment.
+3.  **Sentiment Analysis**: The VADER sentiment lexicon is used to classify each comment as positive, negative, or neutral.
+4.  **Visualization**: Pie and bar charts are generated to show the distribution of sentiment.
 
 ## How to Run
 
