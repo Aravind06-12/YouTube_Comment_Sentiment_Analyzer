@@ -12,9 +12,3 @@ This project builds a data pipeline to scrape comments from a specific YouTube v
 - Python, pandas, google-api-python-client, nltk, matplotlib
 - YouTube Data API
 - Apache Airflow
-
-## Setup and Installation
-1. Clone this repository.
-2. Install the required Python packages: `pip install -r requirements.txt`
-3. Set your YouTube Data API key in the `.env` file.
-4. If using Airflow, configure your DAG and dependencies.
