@@ -1,8 +1,20 @@
-# **Youtube Comment Sentiment Analyzer**
-**OVERVIEW**  
-This is a Python program designed to analyze the sentiment of comments on YouTube videos. The program utilizes natural language processing techniques to determine the sentiment (positive, negative, or neutral) of each comment and provides an overall sentiment analysis for the video.
+# YouTube Comment Sentiment Analyzer
 
-**FEATURES**  
-Sentiment Analysis: Analyzes the sentiment of each comment using machine learning models.  
-YouTube Data API Integration: Fetches comments from YouTube videos using the YouTube Data API.  
-Visualization: Provides visual representations of sentiment analysis results through charts or graphs.  
+This project builds a data pipeline to scrape comments from a specific YouTube video, perform sentiment analysis on them, and visualize the results. The entire workflow is automated using Apache Airflow.
+
+## Project Features
+- **Data Scraping:** Extracts YouTube comments using the YouTube Data API.
+- **Sentiment Analysis:** Classifies comments as positive, negative, or neutral using the VADER sentiment analysis tool.
+- **Data Visualization:** Generates charts to visualize the distribution of sentiment.
+- **Automation:** The pipeline is scheduled and monitored with Apache Airflow.
+
+## Technologies
+- Python, pandas, google-api-python-client, nltk, matplotlib
+- Apache Airflow
+- YouTube Data API
+
+## Setup and Installation
+1. Clone this repository.
+2. Install the required Python packages: `pip install -r requirements.txt`
+3. Set your YouTube Data API key in the `.env` file.
+4. If using Airflow, configure your DAG and dependencies.
