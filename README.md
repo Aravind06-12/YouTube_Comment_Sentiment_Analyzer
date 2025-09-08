@@ -1,6 +1,8 @@
-# YouTube Comment Sentiment Analysis
+# 🎥 YouTube Comment Sentiment Analyzer
 
-Analyze and classify YouTube video comments using Python, VADER sentiment analysis, and machine learning.
+This project analyzes **YouTube comments** to check whether they are **Positive, Negative, or Neutral**.  
+It combines **YouTube Data API**, text preprocessing, and **VADER Sentiment Analysis**.  
+Great for learning **NLP (Natural Language Processing)** and **Sentiment Analysis** with real-world data.
 
 ## Features
 - Extract comments using YouTube Data API v3
