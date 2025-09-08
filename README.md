@@ -1,8 +1,8 @@
 # 🎥 YouTube Comment Sentiment Analyzer
 
-This project analyzes **YouTube comments** to check whether they are **Positive, Negative, or Neutral**.  
-It combines **YouTube Data API**, text preprocessing, and **VADER Sentiment Analysis**.  
-Great for learning **NLP (Natural Language Processing)** and **Sentiment Analysis** with real-world data.
+- This project analyzes **YouTube comments** to check whether they are **Positive, Negative, or Neutral**.  
+- It combines **YouTube Data API**, text preprocessing, and **VADER Sentiment Analysis**.  
+- Great for learning **NLP (Natural Language Processing)** and **Sentiment Analysis** with real-world data.
 
 
 ## 🚀 Features  
