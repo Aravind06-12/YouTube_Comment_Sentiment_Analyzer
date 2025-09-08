@@ -10,17 +10,4 @@ Analyze and classify YouTube video comments using Python, VADER sentiment analys
 - Visualizations: sentiment distribution, word cloud
 - Save/load models for deployment
 
-## Setup
-1. Clone repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Add your YouTube API key to `main.py`
-4. Run `main.py` for extraction & analysis
 
-## Usage
-- Notebooks provided for step-by-step data exploration and model building.
-
-## Contributing
-Pull requests and feedback welcome!
-
-## License
-MIT
