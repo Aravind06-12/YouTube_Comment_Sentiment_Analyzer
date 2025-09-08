@@ -1,0 +1,8 @@
+google-api-python-client
+pandas
+nltk
+vaderSentiment
+matplotlib
+wordcloud
+scikit-learn
+joblib
